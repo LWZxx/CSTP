@@ -1,5 +1,4 @@
 import sys
-import scipy.io as sio
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -71,7 +70,8 @@ if __name__ == "__main__":
     Dim = np.array([3072, 3072, 2048, 1024, 10])
     depth = Dim.shape[0]
 
-    data = sio.loadmat('F:\CasNet_python\Four Layers_DTP\Cifar10_Data.mat')
+    data = np.load('./data/Cifar10.npz')
+
     X_Train = data['X_Train']
     X_Test = data['X_Test']
     Train_Labels = data['Train_Labels']

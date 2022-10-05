@@ -10,9 +10,10 @@ We use CIFAR10 and MNIST dataset in our experiments. For CIFAR10 dataset, it has
 [Here](http://yann.lecun.com/exdb/mnist/).
 ## Training
 To Train CSTP on CIFAR10 dataset with Default Parameters,you can just 
-    ```python
-    python train.py
-    ```
+
+ ```
+python train.py
+```
 
 
 

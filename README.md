@@ -9,7 +9,12 @@ Python 3.7
 We use CIFAR10 and MNIST dataset in our experiments. For CIFAR10 dataset, it has been given as a .npz type file [Here](./data/). For MNIST dataset, you can download from
 [Here](http://yann.lecun.com/exdb/mnist/).
 ## Training
-To train CSTP on CIFAR10 dataset with Default Parameters, you can just run [train.py](./train.py). The Network size and other Hyperparameter can be modified [Here](./train.py#L128).
+To train CSTP on CIFAR10 dataset with Default Parameters, you can just run [train.py](./train.py). The network size and other hyperparameters can be modified [Here](./train.py#L128).
+## Noise Evaluation
+You can evalute CSTP and BP in the presence [Masking Noise](./Masking_Noise.py) and Gaussian Noise(./Gussian_Noise.py) respectively. The pre-trained CSTP and BP models have been given in [Here](./model/).
 
-
-The training codes, the training data, and some pre-trained models are given. Please feel free to contact me if you have any questions. My email is wzlu@sdu.edu.cn
+## Contact
+If you have any problem about our code, feel free to contact
+- wzlu@sdu.edu.cn
+- mrchen@mail.sdu.edu.cn
+or describe your problem in Issues.

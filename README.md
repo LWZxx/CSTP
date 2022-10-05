@@ -14,7 +14,7 @@ We use CIFAR10 and MNIST dataset in our experiments. For CIFAR10 dataset, it has
 To train CSTP on CIFAR10 dataset with Default Parameters, you can just run [train.py](./train.py). The network size and other hyperparameters can be modified [Here](./train.py#L128).
 
 ## Noise Evaluation
-You can evaluate pre-trained CSTP and BP models in the presence of [Masking Noise](./Masking_Noise.py) or Gaussian Noise(./Gussian_Noise.py). The pre-trained CSTP and BP models have been given [Here](./model/).
+You can evaluate pre-trained CSTP and BP models in the presence of [Masking Noise](./Masking_Noise.py) or [Gaussian Noise](./Gussian_Noise.py). The pre-trained CSTP and BP models have been given [Here](./model/).
 
 ## Contact
 If you have any problem about our code, feel free to contact
